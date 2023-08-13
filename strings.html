@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+    Strings page
+    Law Meh
+    13AUG23
+    lawmeh@uat.edu
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title for website-->
+    <title>Strings Page</title>
+    <link href="stringsStyle.css" rel="stylesheet" type="text/css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <!--This is page header-->
+    <h1>Welcome to my Strings Page!</h1>
+    <nav>
+        <h2>Navigation</h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="strings.html">Strings</a><br>
+    </nav>
+    <img id="pic" src="Loginmeme.png">
+    <br>
+    <!--Q and A start-->
+    Q and A<br>
+    <br>
+    <!--Shows status of Q and A-->
+    <div id="loginStatus">Status</div>
+    <br>
+    <!--form for Q and A-->
+    <form id="creditSumbit" onsubmit="return false">
+        <p>Which anime is the song from?</p>
+    Answer: <input type="text" id="answer"><br>
+    <br>
+    <!--submit button for form-->
+    <input type="submit" onclick="checkCreds();" class="button">
+    </form>
+    <br>
+    <!--Sound player(fairy tail op 22)-->
+    <h2>Play Sounds</h1>
+        <Button onclick="playSong();">Play Song</Button>
+    <br>
+    <h2>List of Reconmmended Anime</h2>
+    <table>
+        <tr>
+            <th>Anime</th>
+            <th>Episodes</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Horimiya</td>
+            <td>19</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>AYAKA</td>
+            <td>6</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>The Masterful Cat is Depressed Again Today</td>
+            <td>5</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Haikyu!!</td>
+            <td>92</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Dr. STONE</td>
+            <td>48</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>The Ancient Magus' Bride</td>
+            <td>42</td>
+            <td>Ongoing</td>
+        </tr>
+    </table>
+    <br>
+    <h1>Palinndrome Checker</h1>
+    <br>
+    <div id="palinStatus">Palindrome Status</div>
+    <br>
+    <br>
+    <form id="palinSubmit" onsubmit="return false">
+    Enter Possible Palindrome: <input type="text" id="palinInput"><br>
+    <input type="submit" onclick="checkPalin();" class="button">
+    </form>
+
+</body>
+</html>

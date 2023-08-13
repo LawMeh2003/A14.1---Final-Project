@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--This page is created by Law Meh on 08/13/2023-->
+<html>
+
+<head>
+    <!--style sheet to define the style for our page-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--Webpage's internal information, what the page does-->
+    <!--We need to link this up with js file so we can use js-->
+    <script src="code.js"></script>
+    
+    <title> 
+        Law Meh's Page
+    </title><!--What appears on the webpage tab-->
+
+</head>
+<!--This signify the end of head-->
+<body>
+    <!--Webpage's visual information, elements-->
+    <header>
+        <h1>Welcome to Law's Website</h1>
+        <h3>I will be your host for this Webpage</h3>
+    </header>
+    <marquee id="mymarquee" behavior="scroll" direction="right">
+        <!--animation, moves pic left to right-->
+            <img src="FixingTheWifi.jpg" height="200px" width="auto">
+        </marquee>
+        <button id="startButton" onclick="startFun();">Start</button>
+        <!--sets marquee in motion-->
+        <button id="stopButton" onclick="stopFun();">Stop</button>
+        <!--stops marquee in motion-->
+    <nav>
+        <h2>Navigation</h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="strings.html">Strings</a><br>
+    </nav>
+    <!--For going bwteen pages-->
+
+    
+        <!--This is an image of Chrome from Dr. Stone.
+            The style is how to resize an image without it losing it's original dimentions.-->
+    
+    <br>
+     <!--This adds spacing-->
+    <div id="bodytext" >
+    <p>
+    This is a little something about me. I like to read and write. I also draw occasionally. I like to read fanfiction,
+    manga and watch anime.
+    I major in Computer Science here at UAT.
+    </p>
+    <!--Puts ___ px amount of space-->
+    <div style="margin-top: 100px;"></div>
+    <br>
+    <h2>Wekcome to my Hi Lo game.</h2>
+    <br>
+    <!--Player start game-->
+    <button onclick="playHiLo();">Play Hi Lo</button><br>
+
+    Card 1 results: <div id="card1Res">Press "Play HILo to start game</div><br>
+    <!--Where player place bets-->
+    <div class="btn-group">
+    <button onclick="High();">High</button><!--Player bet high-->
+    <button onclick="Low();">Low</button><!--Player bet low-->
+    </div>
+    Card 2 results: <div id="card2Res">Press "Play HILo to start game</div><br>
+    <!--Player's results-->
+    Game result:  <div id="gameRes">Press "Play HILo to start game</div>  <br>
+    <br>
+    <br>
+<br>
+<h2>Play Sounds</h1>
+<Button onclick="playStation();">Play Space Station Sounds</Button>
+<br>
+<br>
+</div>
+
+    <!--This is for word content on the webpage.-->
+    <footer style="text-align: center;">
+        <h3>Law Meh</h3>
+        2625 W. Basline Road<br>
+        Tempe, Arizona, 85283<br>
+        602-383-2338<br>
+    </footer>
+    <!--(Fake) Personal Information-->
+</body>
+<!--This signify the end of body-->
+</html>
+<!--This signify the end of html-->

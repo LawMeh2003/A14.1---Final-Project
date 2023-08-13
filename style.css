@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+    color: burlywood;
+}
+
+nav{
+    height: 500 px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+footer{
+    text-align: center;
+}
+
+#memePic{
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 300px;
+    height: auto;
+    position: absolute;
+}
+#bodytext{
+    margin-left: 200px;
+}
+
+header{
+    text-align: center;
+}

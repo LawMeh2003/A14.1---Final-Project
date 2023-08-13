@@ -1,0 +1,48 @@
+/* These are the body style elements*/
+body {
+    background-color: aquamarine;
+}
+/*Set up for Pic animation*/
+#pic {
+    width: 200px;
+    height: auto;
+    position: relative;
+    animation-name: Pic;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+/*Path of animation*/
+@keyframes Pic {
+    0% {background-image: "Loginmeme.png"; left: 0px; 
+    top: 0px;}
+    25% {background-image: "Loginmeme.png"; left: 90%;
+    top: 0px;}
+    100% {background-image: "Loginmeme.png"; left: 0px;
+    top: 0px;}
+}
+/*mofidy the header style*/
+h1 {
+    text-align: center;
+}
+
+/*modify button design elements*/
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
